@@ -1,0 +1,81 @@
+$blue: rgb(0, 186, 252);
+$gray: rgb(244, 244, 244);
+
+
+.order-section {
+    background-color: $blue;
+
+    .order-section-wrapper {
+        padding: 56px 0 56px 0;
+
+        .order-title-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .order-title {
+                color: rgb(255, 255, 255);
+                font-family: Open Sans700;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 130%;
+                margin-bottom: 16px;
+            }
+
+            .order-text {
+                width: 719px;
+                color: rgb(255, 255, 255);
+                font-family: Open Sans400;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+        }
+
+        .form-wrapper {
+            display: flex;
+            justify-content: center;
+
+            .order-form {
+                border-radius: 5px;
+                background: rgb(255, 255, 255);
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .input {
+                    border-radius: 5px;
+                    background: rgb(243, 243, 243);
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 150%;
+                    padding: 16px;
+                    width: 300px;
+                    height: 56px;
+                    border: none;
+                }
+
+                .form-order-btn {
+                    margin: 0 auto;
+                    width: 173px;
+                    padding: 8px 16px;
+                    color: rgb(255, 255, 255);
+                    font-family: Open Sans700;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    border-radius: 5px;
+                    background: rgb(0, 186, 252);
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

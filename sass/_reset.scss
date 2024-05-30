@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Open Sans700;
+    src: url(../fonts/static/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Open Sans400;
+    src: url(../fonts/static/OpenSans-Regular.ttf);
+}
