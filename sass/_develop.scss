@@ -78,7 +78,7 @@ $gray: rgb(244, 244, 244);
                 gap: 16px;
 
                 .develop-order-btn {
-                    width: 173px;
+                    width: 180px;
                     padding: 8px 16px;
                     color: rgb(255, 255, 255);
                     font-family: Open Sans700;
@@ -89,15 +89,36 @@ $gray: rgb(244, 244, 244);
                     background: rgb(0, 186, 252);
                     border: none;
                     cursor: pointer;
+
+                    &:hover {
+                        background-color: #00aeed;
+                    }
+
+                    &:active {
+                        color: #e5f8ff;
+                    }
                 }
 
                 .develop-info-link {
+                    padding: 8px 16px;
+                    background-color: rgb(255, 255, 255);
                     color: rgb(0, 186, 252);
                     font-family: Open Sans400;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 24px;
                     text-decoration-line: underline;
+
+                    &:hover {
+                        padding: 8px 16px;
+                        border-radius: 5px;
+                        color: white;
+                        text-decoration: none;
+                        font-family: Open Sans400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        background-color: rgb(0, 186, 252);
+                    }
                 }
             }
         }
